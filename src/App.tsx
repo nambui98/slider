@@ -1,11 +1,9 @@
-import { useState } from 'react'
+
 import Horizolsider from './components/horizolslider/Horizolsider'
-import logo from './logo.svg'
 import './App.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import styled from 'styled-components';
 import image1 from './assets/images/pexels-daria-shevtsova-1095550.jpg'
 import image2 from './assets/images/pexels-ella-olsson-1640777.jpg'
 import image3 from './assets/images/pexels-engin-akyurt-1435735.jpg'
