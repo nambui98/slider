@@ -4,9 +4,6 @@ import Slider from "react-slick";
 
 
 import { BiMinus, BiPlus } from "react-icons/bi";
-type Props = {
-    listItem: any[]
-}
 
 const Wrapper = styled.div`
     width: 700px;
@@ -102,10 +99,10 @@ const Item = styled.div`
 
     }
 `
-const Horizolsider = (props: Props) => {
+const Horizolsider = (props) => {
     const { listItem } = props;
-    const [activeIndex, setActiveIndex] = useState<number>(0);
-    const [showInfo, setShowInfo] = useState<boolean>(false);
+    const [activeIndex, setActiveIndex] = useState < number > (0);
+    const [showInfo, setShowInfo] = useState < boolean > (false);
     const settings = {
         dots: false,
         infinite: true,
@@ -115,7 +112,7 @@ const Horizolsider = (props: Props) => {
         centerMode: true,
         focusOnSelect: true,
         centerPadding: '0px',
-        beforeChange: (current: any, next: any) => {
+        beforeChange: (current, next) => {
             setActiveIndex(next)
             if (current !== next) {
                 setShowInfo(false)
@@ -151,7 +148,7 @@ const Horizolsider = (props: Props) => {
                                     showInfo ?
                                         <ul>
                                             {
-                                                item.info.map((i: any) => <li>
+                                                item.info.map((i) => <li>
                                                     {i}
                                                 </li>)
                                             }

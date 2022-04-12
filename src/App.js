@@ -67,7 +67,7 @@ function App() {
     <div className="App">
       <Horizolsider listItem={listItem} />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
