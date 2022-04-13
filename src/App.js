@@ -4,12 +4,12 @@ import './App.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import image1 from './assets/images/pexels-daria-shevtsova-1095550.jpg'
-import image2 from './assets/images/pexels-ella-olsson-1640777.jpg'
-import image3 from './assets/images/pexels-engin-akyurt-1435735.jpg'
-import image4 from './assets/images/pexels-lisa-fotios-1279330.jpg'
-import image5 from './assets/images/pexels-mariana-kurnyk-1775043.jpg'
-import image6 from './assets/images/pexels-tijana-drndarski-3338681.jpg'
+import image1 from './assets/images/pexels-daria-shevtsova-1095550.webp'
+import image2 from './assets/images/pexels-ella-olsson-1640777.webp'
+import image3 from './assets/images/pexels-engin-akyurt-1435735.webp'
+import image4 from './assets/images/pexels-lisa-fotios-1279330.webp'
+import image5 from './assets/images/pexels-mariana-kurnyk-1775043.webp'
+import image6 from './assets/images/pexels-tijana-drndarski-3338681.webp'
 function App() {
   const listItem = [
     {
