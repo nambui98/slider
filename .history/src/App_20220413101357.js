@@ -40,7 +40,7 @@ function App() {
     },
     {
       id: 4,
-      image: "https://images.pexels.com/photos/2573993/pexels-photo-2573993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      image: image4,
       info: [
         "1",
         "2"
@@ -48,7 +48,7 @@ function App() {
     },
     {
       id: 5,
-      image: "https://images.pexels.com/photos/5465310/pexels-photo-5465310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      image: image5,
       info: [
         "1",
         "2"
@@ -56,7 +56,7 @@ function App() {
     }
     , {
       id: 6,
-      image: "https://images.pexels.com/photos/2110937/pexels-photo-2110937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      image: image6,
       info: [
         "1",
         "2"
