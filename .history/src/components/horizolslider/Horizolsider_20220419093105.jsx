@@ -30,6 +30,7 @@ const Item = styled.div`
         }
     }
     .info{
+        /* width: 200px; */
         border: 2px solid #d5d5d5;
         border-radius: 10px;
         transition: transform 1000s;
@@ -37,6 +38,9 @@ const Item = styled.div`
         margin-top: 50px;
         margin-left: -30px;
         margin-right: -30px;
+        /* position: absolute; */
+        /* width: 100%; */
+            /* top: 100%; */
             right: 0;
             top: 10px;
             z-index: 10;
@@ -66,7 +70,7 @@ const Item = styled.div`
             svg{
                 margin-right: 50px;
                 @media only screen and (max-width: 700px) {
-                    margin-right: 15px;
+                     margin-right: 15px;
                 }
             }
         }

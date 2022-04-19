@@ -12,11 +12,3 @@
 .slick-arrow::before{
   color: #252525 !important;
 }
-.slick-next, .slick-prev {
-  top: 100px !important;
-}
-@media only screen and (max-width: 700px){
-  .slick-next, .slick-prev {
-    top: 80px !important;
-  }
-}
