@@ -23,7 +23,7 @@ const Item = styled.div`
         width: 100px;
         height: 100px;
         border-radius: 50%;
-        transition: all .3s;
+        transition: all .5s;
         @media only screen and (max-width: 700px) {
             width:  70px;
             height: 70px;
