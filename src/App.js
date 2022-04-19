@@ -1,5 +1,5 @@
 
-import Horizolsider from './components/horizolslider/Horizolsider'
+import Horizolsider from './components/horizolslider/Hoziontalsider'
 import './App.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
